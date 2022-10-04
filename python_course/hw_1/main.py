@@ -21,7 +21,7 @@ class Prime:
         return sum
 
 
-class TestCalculator(unittest.TestCase):
+class TestSumPrime(unittest.TestCase):
     def setUp(self):
         self.prime = Prime()
 
