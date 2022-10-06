@@ -1,6 +1,7 @@
+from typing import *
 
 
-def get_military_base_data(file):
+def get_military_base_data(file: str) -> List[List[str]]:
     inFile = open(file, 'r', encoding='utf8')
     array = []
     for line in inFile:
@@ -9,7 +10,7 @@ def get_military_base_data(file):
     return array
 
 
-def calculate_damage(x, y, radius, file):
+def calculate_damage(x: int, y: int, radius: int, file: str) -> int:
     data = get_military_base_data(file)
     size_data = len(data)
     damage = 0
@@ -19,7 +20,7 @@ def calculate_damage(x, y, radius, file):
     return damage
 
 
-def search_max_damage(radius, file):
+def search_max_damage(radius: int, file: str) -> Tuple[int, int, int]:
     data = get_military_base_data(file)
     size_data = len(data)
     max_damage = 0
