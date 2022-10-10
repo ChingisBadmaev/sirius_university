@@ -30,4 +30,4 @@ df = pd.DataFrame(process_row(file_lines_iterator(filename))).T
 df.rename({0: 'x', 1: 'y', 2: 'z'}, axis=1, inplace=True)
 df['x'] = pd.to_numeric(df['x'])
 df['z'] = pd.to_numeric(df['z'])
-df.to_csv(f'after_change_{filename}', index=False)
+df.to_csv(f'dataset_after_change.csv', index=False)

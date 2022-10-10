@@ -22,4 +22,4 @@ df = pd.DataFrame(process_row(input_data)).T
 df.rename({0: 'x', 1: 'y', 2: 'z'}, axis=1, inplace=True)
 df['x'] = df['x'].astype(float)
 df['z'] = df['z'].astype(int)
-df.to_csv('data_from_console', index=False)
+df.to_csv('data_from_console.csv', index=False)
