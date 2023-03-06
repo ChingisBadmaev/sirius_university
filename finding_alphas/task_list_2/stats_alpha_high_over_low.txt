@@ -1,30 +1,64 @@
 ('n =', 1, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
-      years_pnl_cum  turnover  sharpe_coef   drawdown drawdown_day_start drawdown_day_end
-date                                                                                     
-2010       0.123293  0.848545     1.707449  11.807560         06.01.2010       29.01.2010
-2011      -0.013414  0.837383    -0.135244   0.661618         04.03.2011       03.10.2011
-2012       0.009194  0.820229     0.164776   0.406563         23.02.2012       02.08.2012
-2013       0.066427  0.832845     1.235624   0.207921         29.01.2013       17.04.2013
-2014      -0.106157  0.754290    -1.293066   0.833216         05.03.2014       15.12.2014
+None
 
 
-('n =', 1, 'cut_middle_coef = 0.01,   cut_outliers_coef = 0.01,   ranking = False')
-      years_pnl_cum  turnover  sharpe_coef  drawdown drawdown_day_start drawdown_day_end
-date                                                                                    
-2010       0.106338  0.913302     1.566779  4.035503         20.01.2010       04.02.2010
-2011       0.038628  0.900031     0.412299  0.519575         28.04.2011       03.10.2011
-2012       0.025675  0.888936     0.524852  0.319545         26.03.2012       02.08.2012
-2013       0.120848  0.912619     2.981911  0.140557         15.03.2013       17.04.2013
-2014      -0.052717  0.823814    -0.775485  0.364140         18.03.2014       15.12.2014
+('n =', 2, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
 
 
-('n =', 1, 'cut_middle_coef = 0.01,   cut_outliers_coef = 0.01,   ranking = True')
-      years_pnl_cum  turnover  sharpe_coef  drawdown drawdown_day_start drawdown_day_end
-date                                                                                    
-2010       0.106338  0.913302     1.566779  4.035503         20.01.2010       04.02.2010
-2011       0.038628  0.900031     0.412299  0.519575         28.04.2011       03.10.2011
-2012       0.025675  0.888936     0.524852  0.319545         26.03.2012       02.08.2012
-2013       0.120848  0.912619     2.981911  0.140557         15.03.2013       17.04.2013
-2014      -0.052717  0.823814    -0.775485  0.364140         18.03.2014       15.12.2014
+('n =', 3, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 4, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.065041
+2011      -0.106943
+2012      -0.097967
+2013      -0.020710
+2014      -0.093569
+
+
+('n =', 5, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.083674
+2011      -0.109690
+2012      -0.094331
+2013      -0.035473
+2014      -0.074830
+
+
+('n =', 6, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.073250
+2011      -0.135296
+2012      -0.089757
+2013      -0.024864
+2014      -0.071363
+
+
+('n =', 7, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.058509
+2011      -0.171109
+2012      -0.069580
+2013      -0.007876
+2014      -0.049493
+
+
+('n =', 8, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 9, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 10, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
 
 

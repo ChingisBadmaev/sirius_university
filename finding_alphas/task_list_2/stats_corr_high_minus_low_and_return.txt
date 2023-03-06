@@ -1,30 +1,40 @@
 ('n =', 1, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
-      years_pnl_cum  turnover  sharpe_coef     drawdown drawdown_day_start drawdown_day_end
-date                                                                                       
-2010       0.041764  0.221753     1.713497    29.552063         23.07.2010       11.08.2010
-2011      -0.031545  0.251380    -0.898458     1.000189         07.10.2011       01.11.2011
-2012      -0.031965  0.239369    -1.646206   470.759415         23.03.2012       28.12.2012
-2013       0.022433  0.232800     1.131865    23.531061         18.04.2013       08.05.2013
-2014      -0.005254  0.238617    -0.204103  1185.884598         10.07.2014       21.11.2014
+None
 
 
-('n =', 1, 'cut_middle_coef = 0.01,   cut_outliers_coef = 0.01,   ranking = False')
-      years_pnl_cum  turnover  sharpe_coef    drawdown drawdown_day_start drawdown_day_end
-date                                                                                      
-2010       0.038569  0.252640     1.650113  387.484988         03.03.2010       27.08.2010
-2011      -0.029023  0.282055    -0.850555    0.990991         17.05.2011       25.11.2011
-2012      -0.030886  0.268517    -1.610864  215.593270         30.03.2012       28.12.2012
-2013       0.018800  0.262538     0.971611  105.067687         27.06.2013       05.11.2013
-2014      -0.006518  0.268846    -0.261702  225.391336         23.06.2014       24.10.2014
+('n =', 2, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
 
 
-('n =', 1, 'cut_middle_coef = 0.01,   cut_outliers_coef = 0.01,   ranking = True')
-      years_pnl_cum  turnover  sharpe_coef    drawdown drawdown_day_start drawdown_day_end
-date                                                                                      
-2010       0.042085  0.270903     1.872770   42.303290         25.02.2010       27.08.2010
-2011      -0.027643  0.304141    -0.834315    0.903483         17.05.2011       25.11.2011
-2012      -0.030035  0.288694    -1.598031  621.928251         07.05.2012       28.12.2012
-2013       0.021118  0.282601     1.121149  223.991394         25.04.2013       08.05.2013
-2014      -0.013811  0.288889    -0.567985   13.668417         07.07.2014       23.10.2014
+('n =', 3, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 4, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 5, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 6, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 7, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 8, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 9, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
+
+
+('n =', 10, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+None
 
 

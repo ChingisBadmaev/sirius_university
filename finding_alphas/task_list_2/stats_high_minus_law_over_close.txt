@@ -1,30 +1,94 @@
 ('n =', 1, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
-      years_pnl_cum  turnover  sharpe_coef  drawdown drawdown_day_start drawdown_day_end
-date                                                                                    
-2010       0.062133  1.349871     1.896509  0.820644         10.02.2010       22.02.2010
-2011       0.030687  1.356674     0.661084  0.399527         03.05.2011       19.08.2011
-2012       0.044265  1.343289     1.720760  0.144572         23.02.2012       22.03.2012
-2013       0.021900  1.340931     1.001207  0.122077         19.03.2013       03.06.2013
-2014      -0.017706  1.349168    -0.661698  0.247763         03.09.2014       15.12.2014
+None
 
 
-('n =', 1, 'cut_middle_coef = 0.01,   cut_outliers_coef = 0.01,   ranking = False')
-      years_pnl_cum  turnover  sharpe_coef  drawdown drawdown_day_start drawdown_day_end
-date                                                                                    
-2010       0.055930  1.344917     1.778953  1.023720         20.01.2010       29.01.2010
-2011       0.027878  1.352182     0.635014  0.381533         29.04.2011       19.08.2011
-2012       0.039711  1.340928     1.580143  0.148656         23.02.2012       22.03.2012
-2013       0.014316  1.338785     0.682016  0.143739         04.02.2013       17.04.2013
-2014      -0.014448  1.346820    -0.547053  0.266463         03.09.2014       16.12.2014
+('n =', 2, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.107778
+2011      -0.342136
+2012      -0.065242
+2013       0.009499
+2014      -0.027531
 
 
-('n =', 1, 'cut_middle_coef = 0.01,   cut_outliers_coef = 0.01,   ranking = True')
-      years_pnl_cum  turnover  sharpe_coef  drawdown drawdown_day_start drawdown_day_end
-date                                                                                    
-2010       0.055930  1.344917     1.778953  1.023720         20.01.2010       29.01.2010
-2011       0.027878  1.352182     0.635014  0.381533         29.04.2011       19.08.2011
-2012       0.039711  1.340928     1.580143  0.148656         23.02.2012       22.03.2012
-2013       0.014316  1.338785     0.682016  0.143739         04.02.2013       17.04.2013
-2014      -0.014448  1.346820    -0.547053  0.266463         03.09.2014       16.12.2014
+('n =', 3, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.187337
+2011      -0.309589
+2012      -0.112441
+2013       0.063747
+2014      -0.023989
+
+
+('n =', 4, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.200919
+2011      -0.305291
+2012       0.058717
+2013       0.085832
+2014      -0.047923
+
+
+('n =', 5, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.238068
+2011      -0.265786
+2012      -0.238977
+2013      -0.043467
+2014      -0.028561
+
+
+('n =', 6, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.167596
+2011      -0.202222
+2012      -0.175499
+2013      -0.065730
+2014      -0.018515
+
+
+('n =', 7, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.174396
+2011      -0.322932
+2012      -0.065864
+2013      -0.119510
+2014      -0.008704
+
+
+('n =', 8, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.143525
+2011      -0.205713
+2012      -0.003394
+2013      -0.157652
+2014      -0.002046
+
+
+('n =', 9, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.101812
+2011      -0.283362
+2012      -0.049532
+2013      -0.162533
+2014       0.024144
+
+
+('n =', 10, 'cut_middle_coef = 0,   cut_outliers_coef = 0,   ranking = False')
+      years_pnl_cum
+date               
+2010      -0.131163
+2011      -0.245834
+2012       0.042889
+2013      -0.188942
+2014       0.017582
 
 
