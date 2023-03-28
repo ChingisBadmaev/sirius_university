@@ -1,0 +1,40 @@
+###########################################################################
+# Copyright 2008-2019 Rogue Wave Software, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you
+# may not use this file except in compliance with the License. You may
+# obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+# implied. See the License for the specific language governing
+# permissions and limitations under the License.
+###########################################################################
+from pyimsl.util.imslUtils import STAT, fatalErrorCheck, loadimsl, processRet, toNumpyArray
+from numpy import double, dtype, shape
+from ctypes import POINTER, c_double, c_int, c_void_p
+
+imslstat = loadimsl(STAT)
+
+
+def randomNormalMultivariate(nVectors, covariances):
+    """ Generates pseudorandom numbers from a multivariate normal distribution.
+    """
+    imslstat.imsls_d_random_normal_multivariate.restype = POINTER(c_double)
+    shape = []
+    evalstring = 'imslstat.imsls_d_random_normal_multivariate('
+    evalstring += 'c_int(nVectors)'
+    evalstring += ','
+    evalstring += 'c_int(length)'
+    evalstring += ','
+    covariances = toNumpyArray(
+        covariances, 'covariances', shape=shape, dtype='double', expectedShape=(0, 0))
+    evalstring += 'covariances.ctypes.data_as(c_void_p)'
+    length = shape[0]
+    evalstring += ',0)'
+    result = eval(evalstring)
+    fatalErrorCheck(STAT)
+    return processRet(result, shape=(nVectors, length), result=True)

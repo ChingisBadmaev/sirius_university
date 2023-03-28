@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: PyIMSL
+Version: 2020.0.1
+Summary: Python wrappers for IMSL C Numerical Library
+Home-page: https://www.imsl.com/products/imsl-python-libraries
+Author: Rogue Wave Software, Inc.
+Author-email: support@roguewave.com
+Maintainer: Rogue Wave Software, Inc.
+Maintainer-email: support@roguewave.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy (>=1.16.5)
+
+Python Wrappers for IMSL C Numerical Library (PyIMSL)
+=====================================================
+
+General Information
+-------------------
+
+- Website: https://www.imsl.com/products/imsl-python-libraries
+
+Installation
+------------
+
+Prerequisites
+~~~~~~~~~~~~~
+
+PyIMSL is certified with the following software:
+
+* `Python <https://www.python.org/>`_ 2.7 or >=3.5
+
+* `IMSL C Numerical Library (CNL)
+  <https://www.imsl.com/products/imsl-c-libraries>`_ >= 8.5 
+
+  CNL must be setup and configured in the environment before using PyIMSL.
+  Follow the instructions that accompanied your CNL distribution to ensure
+  that it is setup and configured properly. In general, this can be
+  accomplished by executing the ``cnlsetup.[bat|sh]`` script distributed with
+  that product.
+
+
+Installing the Wheel
+~~~~~~~~~~~~~~~~~~~~
+
+To install from a wheel based distribution::
+
+   pip install PyIMSL-<version>-py2.py3-none-any.whl
+
+where version is the release to install. To uninstall::
+
+   pip uninstall PyIMSL
+
+Verification
+~~~~~~~~~~~~
+
+To verify that PyIMSL has been installed appropriately, run the
+following test::
+
+   >>> import pyimsl.test
+
+

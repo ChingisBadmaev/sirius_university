@@ -1,0 +1,3 @@
+#!/home/chingisbadmaev/Desktop/sirius_university/Monte-Carlo-Simulation/env/bin/python
+from numba.pycc import main
+main()
